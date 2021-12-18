@@ -4,7 +4,8 @@
 int main()
 {
 	//int c;
-	unsigned char c;
+	signed char c;
+	//unsigned char c;
 	while ((c = getchar()) != EOF)
 	{
 		printf("%x", c);
